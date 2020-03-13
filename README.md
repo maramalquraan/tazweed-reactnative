@@ -21,11 +21,13 @@ From within the root directory:
 ```
 npm install
 for android : run android studio and open android folder as the current project
-open device emulator
-npm run android
+- open device emulator
+- npm run android
 
 for ios :
-run Xcode
+- cd ios && pod install && cd ..
+- run Xcode then play button on xcode 
+OR 
 npm run ios
 
 ```
